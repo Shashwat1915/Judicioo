@@ -182,7 +182,7 @@ app.post('/api/generate-arguments', async (req, res) => {
 
 
 // --- START SERVER ---
-app.listen(port, () => {
-    console.log(`Judicio AI backend server listening at http://localhost:${port}`);
+app.listen(PORT, () => {
+    console.log(`Judicio AI backend server listening on port ${PORT}`);
 });
 
